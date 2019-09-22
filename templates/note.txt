@@ -1,0 +1,13 @@
+"themes/ --> "{% static 'css_js' %}/themes/
+
+"products.html" --> "{% url 'mystore:product' %}"
+
+"index.html" --> "{% url 'mystore:index' %}"
+
+"product_details.html" --> "{% url 'mystore:product_details' %}"
+
+"contact.html" --> "{% url 'mystore:contact' %}"
+
+"login.html" --> "{% url 'mystore:login' %}"
+
+"register.html" --> "{% url 'mystore:register' %}"
